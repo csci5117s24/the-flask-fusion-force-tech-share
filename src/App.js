@@ -1,19 +1,23 @@
-import logo from './logo.svg';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState } from "react";
+
+import Home from "./Routes/Home";
+import MyForm from "./Routes/MyForm";
+
 import './App.css';
-import ScrollableProgressBar from './ScrollableProgressBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <ScrollableProgressBar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route index path="/" element={<Home />} />
+        <Route index path="/myform" element={<MyForm />} />
+
+      </Routes>
+    </BrowserRouter>
   );
 }
 

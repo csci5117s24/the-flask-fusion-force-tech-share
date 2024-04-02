@@ -37,3 +37,34 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* Form CSS:  */
+.custom-form {
+  max-width: 80em;
+  margin: auto;
+  padding: 5em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.custom-form .Form-Group {
+  margin-bottom: 10em;
+  color:red;
+}
+
+.custom-form .custom-button {
+  width: 100%;
+}
+
+.custom-form .text-muted {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+#FormTitle{
+  text-align: center;
+  margin-bottom:0.8em;
+}
