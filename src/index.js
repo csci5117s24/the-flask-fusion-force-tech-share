@@ -4,11 +4,33 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import MyForm from './Routes/MyForm';
+import Home from './Routes/Home';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const router = createBrowserRouter([{
+  path: "/",
+  element: <App />,
+  children: [
+    {
+      index: true,
+      element: <Home />,
+    },
+    {
+      path: "myform",
+      element: <MyForm />,
+    }
+  ]
+}])
+
 root.render(
   <React.StrictMode>
-      <App />
+      <RouterProvider router={router} />
   </React.StrictMode>
 );
 

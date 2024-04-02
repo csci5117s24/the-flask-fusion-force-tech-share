@@ -1,0 +1,33 @@
+.background{
+    background-color: #555500;
+    width: 100px;
+    height: 100px;
+}
+.imgcontainerexample{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding-top:10em;
+    
+}
+.imgcontainer{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+.img{
+    height: 300px;
+    width: auto;
+}
+.imgstrecth{
+    height: 300px;
+    width: 100%;
+}
+.caption{
+    background-color: rgba(201, 85, 85, 0.426);
+    color: rgb(255, 255, 255);
+    border-radius: 1em;
+    border: #3000aa;
+}

@@ -1,0 +1,7 @@
+.progressBar {
+    position: fixed;
+    width: 100vw;
+    height: 10px;
+    bottom: 0;
+    z-index: 10;
+}
