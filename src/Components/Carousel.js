@@ -9,7 +9,7 @@ function UncontrolledExample({caption,children}) {
 
         <Carousel.Caption>
           <h3>You can use the Carousel ...</h3>
-          <p>This image strechs the full width</p>
+          <p>This image stretches the full width</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -21,7 +21,7 @@ function UncontrolledExample({caption,children}) {
  
         <Carousel.Caption>
           <h3>... to display diffent images or content</h3>
-          <p>This image is shown as it's orignal scal</p>
+          <p>This image is shown as it's orignal scale</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import ProgressBar from 'react-bootstrap/ProgressBar';
-import styles from '../Common/ScrollProgressBar.module.css'
+import styles from '../Common/ScrollProgressBar.module.css';
 
 function ScrollProgressBar() {
   const [y, setY] = useState(window.scrollY)
