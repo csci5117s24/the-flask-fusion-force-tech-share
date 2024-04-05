@@ -4,7 +4,7 @@
 
 Team Members: Conner Dejong, Allen Liao, Thomas Knickerbocker, Owen Ratgen, Kris Moe
 
-[Medium Article] (https://medium.com/@tcknickerbocker/how-to-style-your-react-apps-with-react-bootstrap-73a6f5f5ecea)
+[Medium Article](https://medium.com/@tcknickerbocker/how-to-style-your-react-apps-with-react-bootstrap-73a6f5f5ecea)
 
 ### The article linked above:
 
@@ -15,3 +15,6 @@ Team Members: Conner Dejong, Allen Liao, Thomas Knickerbocker, Owen Ratgen, Kris
 ### To clone this repository, in your command line, run:
 
 `git clone https://github.com/csci5117s24/the-flask-fusion-force-tech-share.git`
+
+
+#### We hope that you enjoyed & learned something new!
