@@ -14,13 +14,6 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      {/* <BrowserRouter>
-        <Routes>
-          <Route index path="/" element={<Home />} />
-          <Route index path="/myform" element={<MyForm />} />
-
-        </Routes>
-      </BrowserRouter> */}
       <Outlet />
     </div>
   );
